@@ -1,0 +1,61 @@
+/* NAvigation */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding:0px 7px;
+    padding-bottom: 8px;
+}
+/* home */
+#home{
+    height:213px; 
+    padding:60px  
+}
+#home::before{
+    height:425px;   
+}
+#home p{
+    font-size: 13px;
+
+}
+
+/* Services */
+
+#services{
+    flex-direction: column;
+}
+#services .box{
+    width: 100%;
+    padding:15px;
+    margin:3px 0px;
+}
+#services .box img{
+    height:100px;
+    width: 100px;
+}
+/* Inspire */
+.inspirers{
+    flex-wrap: wrap;
+}
+.inspirers img{
+    width:60px;
+    height:40px;
+
+}
+#inspire-sections{
+    height:250px;
+}
+
+/* Contacts */
+#contact-box form{
+    width:70%;
+}
+/* Utility Classes */
+.h-primary{
+    font-size: 26px;
+}
+.btn{
+    font-size: 13px;
+    padding:4px 8px;
+}
